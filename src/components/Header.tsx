@@ -10,12 +10,6 @@ export const Header = () => {
   const [authMode, setAuthMode] = useState<'signin' | 'signup'>('signin');
 
   const navItems = [
-    { name: 'Our People', href: '/people' },
-    { name: 'What We Do', href: '/services' },
-    { name: 'Case Studies', href: '/case-studies' },
-    { name: 'Our Thinking', href: '/insights' },
-    { name: 'ESG', href: '/esg' },
-    { name: 'Careers', href: '/careers' },
     { name: 'Dashboard', href: '/dashboard' }
   ];
 
@@ -32,9 +26,9 @@ export const Header = () => {
             {/* Logo */}
             <Link to="/" className="flex items-center gap-3">
               <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
-                <span className="text-accent-foreground font-bold text-sm">GT</span>
+                <span className="text-accent-foreground font-bold text-sm">AC</span>
               </div>
-              <span className="text-xl font-bold text-primary">GrowTech</span>
+              <span className="text-xl font-bold text-primary">Attack Capital</span>
             </Link>
 
             {/* Desktop Navigation */}

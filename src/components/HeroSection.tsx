@@ -28,14 +28,14 @@ export const HeroSection = () => {
                 </div>
               </h1>
               <p className="text-corporate max-w-lg">
-                Empowering global businesses with innovative solutions, strategic growth initiatives, 
-                and comprehensive protection frameworks for the digital age.
+                Strategic legal and capital solutions for ambitious companies 
+                navigating complex growth, protection, and innovation challenges.
               </p>
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 py-4 text-lg">
-                Discover Solutions
+                Get Legal Counsel
               </Button>
               <Button variant="outline" size="lg" className="border-accent text-accent hover:bg-accent hover:text-accent-foreground px-8 py-4 text-lg">
                 Schedule Consultation

@@ -2,51 +2,51 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Corporate Design System - Professional Green Branding */
+/* Legal Corporate Design System - Professional Blue Branding */
 
 @layer base {
   :root {
-    /* Corporate Green Primary */
-    --primary: 140 85% 8%;
+    /* Legal Navy Primary */
+    --primary: 220 40% 15%;
     --primary-foreground: 0 0% 100%;
 
-    /* Neon Green Accent */
-    --accent: 120 100% 35%;
+    /* Professional Blue Accent */
+    --accent: 210 90% 50%;
     --accent-foreground: 0 0% 100%;
 
     --background: 0 0% 100%;
-    --foreground: 140 85% 8%;
+    --foreground: 220 40% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 140 85% 8%;
+    --card-foreground: 220 40% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 140 85% 8%;
+    --popover-foreground: 220 40% 15%;
 
-    --secondary: 140 20% 96%;
-    --secondary-foreground: 140 85% 8%;
+    --secondary: 220 15% 96%;
+    --secondary-foreground: 220 40% 15%;
 
-    --muted: 140 15% 95%;
-    --muted-foreground: 140 25% 45%;
+    --muted: 220 10% 95%;
+    --muted-foreground: 220 20% 45%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 140 20% 90%;
-    --input: 140 20% 90%;
-    --ring: 120 100% 35%;
+    --border: 220 15% 90%;
+    --input: 220 15% 90%;
+    --ring: 210 90% 50%;
 
     --radius: 0.75rem;
 
-    /* Corporate Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(0 0% 100%) 0%, hsl(140 25% 97%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(120 100% 35%) 0%, hsl(140 85% 25%) 100%);
-    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(140 15% 98%) 100%);
+    /* Legal Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(0 0% 100%) 0%, hsl(220 20% 97%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(210 90% 50%) 0%, hsl(220 40% 25%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(220 10% 98%) 100%);
 
-    /* Corporate Shadows */
-    --shadow-elegant: 0 10px 30px -10px hsl(140 85% 8% / 0.1);
-    --shadow-glow: 0 0 40px hsl(120 100% 35% / 0.15);
-    --shadow-card: 0 4px 20px hsl(140 85% 8% / 0.08);
+    /* Legal Shadows */
+    --shadow-elegant: 0 10px 30px -10px hsl(220 40% 15% / 0.1);
+    --shadow-glow: 0 0 40px hsl(210 90% 50% / 0.15);
+    --shadow-card: 0 4px 20px hsl(220 40% 15% / 0.08);
 
     /* Sidebar Variables */
     --sidebar-background: 0 0% 98%;
@@ -60,33 +60,33 @@
   }
 
   .dark {
-    --background: 140 85% 8%;
+    --background: 220 40% 8%;
     --foreground: 0 0% 100%;
 
-    --card: 140 85% 8%;
+    --card: 220 40% 8%;
     --card-foreground: 0 0% 100%;
 
-    --popover: 140 85% 8%;
+    --popover: 220 40% 8%;
     --popover-foreground: 0 0% 100%;
 
     --primary: 0 0% 100%;
-    --primary-foreground: 140 85% 8%;
+    --primary-foreground: 220 40% 8%;
 
-    --secondary: 140 40% 15%;
+    --secondary: 220 30% 15%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 140 40% 15%;
-    --muted-foreground: 140 20% 65%;
+    --muted: 220 30% 15%;
+    --muted-foreground: 220 15% 65%;
 
-    --accent: 120 100% 45%;
-    --accent-foreground: 140 85% 8%;
+    --accent: 210 90% 55%;
+    --accent-foreground: 220 40% 8%;
 
     --destructive: 0 62% 30%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 140 40% 15%;
-    --input: 140 40% 15%;
-    --ring: 120 100% 45%;
+    --border: 220 30% 15%;
+    --input: 220 30% 15%;
+    --ring: 210 90% 55%;
 
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;

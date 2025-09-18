@@ -9,11 +9,11 @@ export const Footer = () => {
           {/* Left Side - Logo */}
           <div className="flex items-center gap-4">
             <div className="w-12 h-12 bg-accent rounded-lg flex items-center justify-center">
-              <span className="text-accent-foreground font-bold text-lg">GT</span>
+              <span className="text-accent-foreground font-bold text-lg">AC</span>
             </div>
             <div>
-              <h3 className="text-2xl font-bold">GrowTech</h3>
-              <p className="text-primary-foreground/80 text-sm">Corporate Solutions & Innovation</p>
+              <h3 className="text-2xl font-bold">Attack Capital</h3>
+              <p className="text-primary-foreground/80 text-sm">Legal & Capital Solutions</p>
             </div>
           </div>
 
@@ -32,7 +32,7 @@ export const Footer = () => {
         <div className="mt-12 pt-8 border-t border-primary-foreground/20">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-primary-foreground/60 text-sm">
-              © 2024 GrowTech Corporation. All rights reserved.
+              © 2024 Attack Capital. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm">
               <a href="#" className="text-primary-foreground/60 hover:text-accent transition-colors">
