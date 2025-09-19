@@ -1,4 +1,3 @@
-Below is a complete README you can copy-paste into your GitHub. It covers frontend, backend, MongoDB schema, routes, ngrok, and OpenMic testing with prompts and screenshots placeholders.
 
 # Attack Capital – Domain‑Specific AI Intake Agent (OpenMic)
 
