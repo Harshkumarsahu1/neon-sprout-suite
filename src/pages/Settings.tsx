@@ -41,11 +41,11 @@ export default function Settings() {
             </div>
             <div className="space-y-2">
               <Label htmlFor="email">Email Address</Label>
-              <Input id="email" type="email" placeholder="john.doe@growtech.com" />
+              <Input id="email" type="email" placeholder="john.doe@attackcapital.com" />
             </div>
             <div className="space-y-2">
               <Label htmlFor="company">Company</Label>
-              <Input id="company" placeholder="GrowTech Corporation" />
+              <Input id="company" placeholder="Attack Capital" />
             </div>
           </CardContent>
         </Card>
@@ -66,7 +66,7 @@ export default function Settings() {
               <Label htmlFor="apiEndpoint">API Base URL</Label>
               <Input 
                 id="apiEndpoint" 
-                placeholder="https://api.growtech.com" 
+                placeholder="https://api.attackcapital.com" 
                 className="font-mono text-sm"
               />
             </div>

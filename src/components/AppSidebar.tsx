@@ -17,7 +17,6 @@ const items = [
   { title: 'Bots', url: '/dashboard/bots', icon: Bot },
   { title: 'Logs', url: '/dashboard/logs', icon: FileText },
   { title: 'Analytics', url: '/dashboard/analytics', icon: BarChart3 },
-  { title: 'Settings', url: '/dashboard/settings', icon: Settings },
 ];
 
 export function AppSidebar() {
@@ -36,11 +35,11 @@ export function AppSidebar() {
       <SidebarContent>
         <div className="p-4">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
-              <span className="text-accent-foreground font-bold text-sm">GT</span>
+            <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center">
+              <span className="text-white font-bold text-sm">AC</span>
             </div>
             {!isCollapsed && (
-              <span className="text-lg font-bold text-primary">GrowTech</span>
+              <span className="text-lg font-bold text-slate-900">Attack Capital</span>
             )}
           </div>
         </div>

@@ -33,7 +33,7 @@ export const AuthModal = ({ isOpen, onClose, mode, onModeChange }: AuthModalProp
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
           <DialogTitle className="text-center text-2xl font-bold text-primary">
-            Welcome to GrowTech
+            Welcome to Attack Capital
           </DialogTitle>
         </DialogHeader>
 

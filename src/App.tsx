@@ -13,8 +13,10 @@ import { Footer } from "@/components/Footer";
 import Dashboard from "./pages/Dashboard";
 import Bots from "./pages/Bots";
 import Logs from "./pages/Logs";
-import Settings from "./pages/Settings";
 import NotFound from "./pages/NotFound";
+import Index from "./pages/Index";
+import SignIn from "./pages/SignIn";
+import SignUp from "./pages/SignUp";
 
 const queryClient = new QueryClient();
 
@@ -39,14 +41,15 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<LandingPage />} />
+          <Route path="/" element={<Index />} />
           <Route path="/dashboard" element={<Dashboard />}>
             <Route index element={<Bots />} />
             <Route path="bots" element={<Bots />} />
             <Route path="logs" element={<Logs />} />
             <Route path="analytics" element={<Logs />} />
-            <Route path="settings" element={<Settings />} />
           </Route>
+          <Route path="/signin" element={<SignIn />} />
+          <Route path="/signup" element={<SignUp />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
